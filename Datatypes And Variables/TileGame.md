@@ -7,25 +7,22 @@ game where the kids were given 'n' square tiles of the same size and were asked 
  
 Help the kids by writing a program to find the area of the largest possible square that can be formed, given the side of a square tile (in cms) and the number of square tiles available.
 
-**Input format :**
-
-First line of the input is an integer that corresponds to the side of a square tile (in cms).
+**Input format :**<br>
+First line of the input is an integer that corresponds to the side of a square tile (in cms).<br>
 Second line of the input is an integer that corresponds to the number of square tiles available.
 
-**Output format :**
-
+**Output format :**<br>
 Output should display the area of the largest possible square that can be formed (in square cms) with the available tiles.
 
 **Sample test cases :**
 
-**Input 1 :**
-
-5
+**Input 1 :**<br>
+5<br>
 8
 
-**Output 1 :**
-
+**Output 1 :** <br>
 100
+
 ----------------------------------------------------------------------------------------------------------------------------
 ```java
 import java.util.*;
