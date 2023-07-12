@@ -6,11 +6,11 @@ Number of people who attended the event on the first day was x. But as days prog
 Given the total number of people who have attended the event in the first 3 days, find the number of people who have attended the event on day 1, day 2 and day 3.
 
 **Input format :**
-
+<br>
 First line of the input is an integer value that corresponds to the total number of people.
 
 **Output format :**
-
+<br>
 First line of the output should display the number of attendees on day 1.
 <br>
 Second line of the output should display the number of attendees on day 2.
@@ -20,11 +20,10 @@ Third line of the output should display the number of attendees on day 3.
 
 **Sample test cases :**
 
-**Input 1 :**<br>
+**Input 1 :** <br>
 10500
 
-**Output 1 :**
-
+**Output 1 :** <br>
 Number of attendees on day 1 : 3000
 <br>
 Number of attendees on day 2 : 6000
