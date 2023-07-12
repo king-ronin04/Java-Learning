@@ -30,4 +30,25 @@ Number of attendees on day 2 : 6000
 <br>
 Number of attendees on day 3 : 1500
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+```java
+import java.io.*;
+import java.util.*;
+
+class Tradefair {
+
+  public static void main(String[] args) {
+    int total, day1, day2, day3;
+    Scanner sc = new Scanner(System.in);
+    total = sc.nextInt();
+    day1 = (total * 2) / 7;
+    day2 = day1 * 2;
+    day3 = day1 / 2;
+    System.out.println("Number of attendees on day 1 : " + day1);
+    System.out.println("Number of attendees on day 2 : " + day2);
+    System.out.println("Number of attendees on day 3 : " + day3);
+  }
+}
+
+```
  
