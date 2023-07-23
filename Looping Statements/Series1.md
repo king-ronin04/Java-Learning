@@ -20,4 +20,36 @@ Input 1 :** <br>
 **Input 2 :** <br>
 10 <br>
 **Output 2 :** <br>
-2 3 5 7 11 13 17 19 23 29 
+2 3 5 7 11 13 17 19 23 29
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```java
+import java.io.*;
+import java.util.*;
+class Series1 {
+	public static void main(String [] args) {
+	    int n,i,j,k=2,s=0;
+	    Scanner sc = new Scanner(System.in);
+	    n = sc.nextInt();
+	    for(i=0;i<n;i++)
+	    {
+	        for(j=2;j<=k/2;j++)
+	        {
+	            if(k%j==0) { 
+	            	s=1;
+	            	break;
+	            	}
+	        }
+	        if(s==0) { 
+	        	System.out.print(k+" ");
+	        	}
+	        else { 
+	        	i--; 
+	        	}
+	        k++;s=0;
+	    }
+
+	}
+}
+```
