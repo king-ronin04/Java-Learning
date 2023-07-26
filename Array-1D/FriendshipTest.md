@@ -6,22 +6,57 @@ Michael is not a lavish spender and can give at most one grand party daily. Also
 
 Please help Michael in this difficult task.
 
-Input format :
+#### Input format :
 First line will contain a single integer denoting n. Assume that the maximum value for n as 50.
-
+<br>
 Second line will contain n space separated integers where ith integer corresponds to the day dith as given in the problem.
 
-Output format :
+#### Output format :
 Print a single line corresponding to the maximum number of friendships Michael can save.
 
-Sample test cases :
-Input 1 :
+**Sample test cases :<br>
+Input 1 :<br>**
+2<br>
+3 2<br>
+**Output 1 :<br>**
 2
-3 2
-Output 1 :
-2
-Input 2 :
+
+**Input 2 :<br>**
+5<br>
+4 1 3 7 5<br>
+**Output 2 :<br>**
 5
-4 1 3 7 5
-Output 2 :
-5
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```java
+import java.io.*;
+import java.util.*;
+class Friendshiptest {
+	public static void main(String [] args) {
+		int i,j=0,k=0,n;
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		int a[] = new int[n];
+		for(i=0;i<n;i++) {
+			a[i] = sc.nextInt();
+		}
+	    for(i=0;i<n;i++)
+	    {
+	        if(a[i]>0) { 
+	        	j++;
+	        for(k=i+1;k<n;k++)
+	        {
+	            if(a[i]==a[k]) { 
+	            	a[k]=0;
+	            	}
+	        }
+	        }
+	    }
+	    System.out.println(j);
+
+	}
+}
+
+
+```
