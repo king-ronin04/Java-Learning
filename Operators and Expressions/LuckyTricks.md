@@ -12,14 +12,15 @@ The first and only line of input contains an integer N.
 #### Output format :
 Output should display the area of the floor that is to be decorated with the carpet.
 
-#### Sample test cases :
-#### Input 1 :
-5
-#### Output 1 :
+**Sample test cases :<br>
+Input 1 :<br>**
+5<br>
+**Output 1 :<br>**
 3
-#### Input 2 :
-28
-#### Output 2 :
+
+**Input 2 :<br>**
+28<br>
+**Output 2 :<br>**
 15
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
