@@ -14,20 +14,20 @@ Second line of the input is an integer x, the side of the square table placed fo
 #### Output format :
 Output should display the area of the floor that is to be decorated with the carpet.
 
-#### Sample test cases :
-#### Input 1 :
-7
-<br>
-3
-#### Output 1 :
+**Sample test cases :<br>
+Input 1 :<br>**
+7<br>
+3<br>
+**Output 1 :<br>**
 40
-#### Input 2 :
-5
-<br>
-2
-#### Output 2 :
+
+**Input 2 :<br>**
+5<br>
+2<br>
+**Output 2 :<br>**
 21
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```java
 import java.io.*;
