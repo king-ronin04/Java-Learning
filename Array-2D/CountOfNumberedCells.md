@@ -17,7 +17,8 @@ Unnumbered cells start out grey and cycle through white and black when clicked. 
 **Problem Statement:** <br>
 Write a program to find the count of numbered cells, given a valid initial board configuration. Below figure is the sample valid initial configuration.
 
-﻿
+﻿![image](https://github.com/king-ronin04/Java-Learning/assets/103017387/08026930-d7ee-4475-8650-e6a6a49ca829)
+
 
 #### Input format :
 First line of the input is an integer N that gives the number of rows and columns of the grid.
